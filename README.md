@@ -24,10 +24,10 @@ La structure d'une potion sera la suivante:
 
 ```js
 {
+    id: "potion_soin", // pour rendre ça unique
     nom: "Potion de soin",
     prix: 10,
     stock: 100,
-    ingredients: [],
 }
 ```
 
@@ -60,3 +60,18 @@ La structure d'une potion sera la suivante:
   - premier paramètre est l'inventaire des potions
   - deuxième paramètre peut être SOIT un tableau de potions, soit directement une potion
 - Ajoute de nouvelles potions dans l'inventaire
+- Tri l'inventaire du plus cher au moins cher avec la méthode `sort` de l'objet global `Array` (cela va muter le tableau original, mais pas de soucis dans ce contexte)
+
+### Cherche moi les potions qui...
+
+- Ecrit une fonction qui permet de récupérer la liste de toutes les potions en stock. ⚠️ Utiliser la méthode `filter` de l'objet global `Array` pour éviter de muter le tableau initial.
+- Ecrit une fonction qui permet de récupérer la liste de toutes les potions ayant un stock
+
+TODO
+
+Construction de potion qui prend en compte :
+
+- liste d'ingrédients (validation et gestion erreur simple, sans exception)
+- temps de conception (callback pour l'ajout dans l'inventaire)
+- Voir pour des exemples pour les closures (par exemple possibilité de créer un inventaire d'Aventurier et un inventaire de la boutique de potions)
+- Un peu de classes ?
