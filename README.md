@@ -27,6 +27,7 @@ La structure d'une potion sera la suivante:
     nom: "Potion de soin",
     prix: 10,
     stock: 100,
+    ingredients: [],
 }
 ```
 
