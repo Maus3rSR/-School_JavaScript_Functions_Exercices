@@ -1,4 +1,4 @@
-# Exercices sur les bases de JavaScript
+# Exercices sur les fonctions en JavaScript
 
 - Tu peux mettre toutes tes réponses dans le fichier `exercices.js`.
 - À chaque exercice _(chaque sous-titre après le titre Exercices dans cet énoncé)_, tu dois faire un commit avec le titre de l'exercice.
